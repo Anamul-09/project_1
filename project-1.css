@@ -1,0 +1,338 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+    body{
+        font-family: 'Raleway', sans-serif; 
+        
+    }
+    h1,h2,h3,h4,h5,h6,p{
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    ul,li,a{
+        text-decoration: none;
+        list-style: none;
+    }
+
+                /* Home section start here */
+
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    header.header {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        background-color: #e9e7e7;
+        box-shadow: 0px 2px 6px #b9b3b3;
+    }
+    
+    .logo {
+        width: 180px;
+        padding-top: 6px;
+    }
+    
+    .logo span {
+        font-size: 17px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        padding: 11px;
+        transition: .3s;
+    }
+
+    .logo span code {
+        font-size: 23px;
+        font-weight: 500;
+    }
+    
+    .logo span:hover {
+        background-color: #d1cbcb;
+        cursor: pointer;
+    }
+    
+    .menu {
+        width: 600px;
+        text-align: right;
+    }
+    
+    ul li {
+        display: inline-block;
+        padding: 10px 10px;
+    }
+    
+    ul li a {
+        padding: 10px 10px;
+        color: #333;
+        transition: .3s;
+        font-size: 20px;
+    }
+    
+    ul li a:hover {
+        background-color: #d1cbcb;
+        color: #fb5200;
+    }
+    
+    .nav{
+        background-image: url("images/architect.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        margin-bottom: 5px;
+        
+    }
+
+    .nav h2 {
+        font-size: 20px;
+        font-weight: 500;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-85px);
+        color: #fff;
+    }
+    
+    .nav h2 span {
+        font-size: 26px;
+        font-weight: 700;
+        padding: 8px;
+        background-color: #333333a8;
+        margin-right: 10px;
+        transition: .3s;
+        border-radius: 5px;
+    }
+    
+    .nav h2 span:hover {
+        background-color: #747272bd;
+    }
+
+    
+    footer.footer {
+        background-color: #222;
+        padding: 20px 0px;
+    }
+    
+    
+    footer.footer p {
+        color: #fff;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    footer.footer p a {
+        color: #fff;
+        text-decoration: underline;
+        transition: .3s;
+    }
+    
+    footer.footer p a:hover{
+        color: rgb(3, 105, 3);
+    }
+
+                  /* Home section ends */
+
+
+                     /* About section start here */
+
+    .content h4 {
+        padding: 15px 0px;
+        font-size: 15px;
+        font-weight: 500;
+        color: #333;
+    }
+    
+
+    .content h4 {
+        padding: 15px 0px;
+        font-size: 25px;
+        font-weight: 500;
+        color: #333;
+    }
+    
+    .content p {
+        font-size: 16px;
+        line-height: 35px;
+        font-family: 'Montserrat';
+        word-spacing: 2px;
+        padding: 20px 0;
+        text-align: justify;
+        font-weight: 400;
+    }
+
+    .personsWrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .personImg{
+        overflow: hidden;
+    }
+    
+    .personImg img {
+        width: 100%;
+        transition: .3s;
+    }
+
+    .personImg img:hover{
+        transform: scale(1.1);
+        opacity: .7;
+    }
+    
+    .persons {
+        margin-right: 10px;
+    }
+    
+    .personContect h3 {
+        padding: 10px 0;
+        font-weight: 500;
+        font-size: 22px;
+    }
+
+    .personContect span {
+        font-size: 14px;
+        color: #666;
+    }
+    
+    .personContect p {
+        padding: 10px 1px;
+        font-size: 15px;
+        line-height: 30px;
+        font-weight: 500;
+        color: #555;
+    }
+    
+    button.btn {
+        width: 100%;
+        padding: 8px 0px;
+        border: none;
+        border-radius: 3px;
+        font-size: 18px;
+    }
+    
+    button.btn:hover {
+        background-color: #b7b4b4;
+        cursor: pointer;
+    }
+
+
+                      /* About section seds here */
+      
+                         /* Project section start here */
+
+   
+    
+    .project h4 {
+        padding: 15px 0px;
+        font-size: 25px;
+        font-weight: 500;
+        color: #333;
+    }
+
+    .project-img {
+        overflow: hidden;
+        column-count: 4;
+        position: relative;
+        margin-bottom: -26px;
+        margin-top: 25px;
+    }
+    
+    .images {overflow: hidden;}
+    
+    .images img {
+        width: 100%;
+        transition: .3s;
+    }
+    h4 {
+        padding-bottom: 12px;
+    }
+    
+    .images img:hover {
+        opacity: .7;
+        transform: scale(1.1);
+    }
+    
+    .images p {
+        position: relative;
+        top: -198px;
+        background: #333;
+        width: 122px;
+        padding: 8px 8px;
+        color: #fff;
+        font-size: 17px;
+        font-family: cursive;
+        transition: .3s;
+    }
+    
+    .images p:hover {
+        background-color: #444;
+        cursor: pointer;
+         
+    }
+
+
+
+                /* Project section ends here */
+
+                 /* Contact section start here */
+
+
+
+   .contact h4 {
+        padding: 15px 0px;
+        font-size: 25px;
+        font-weight: 500;
+        color: #333;
+   }
+
+   p {
+    padding: 20px 0px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+input[type="text"] {
+    width: 100%;
+    font-size: 17px;
+    margin-bottom: 10px;
+    padding: 10px 5px;
+    border: 1px solid #ddd;
+}
+
+input[type="email"] {
+    width: 100%;
+    font-size: 17px;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    border: 1px solid #dddd;
+}
+
+
+input[type="button"] {
+    padding: 10px 20px;
+    width: 200px;
+    background: #000;
+    color: #fff;
+    font-size: 17px;
+    transition: .3s;
+    border-radius: 5px;
+    margin: 20px 0px;
+}
+
+input[type="button"]:hover {
+    background: #444;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
